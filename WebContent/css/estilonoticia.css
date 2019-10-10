@@ -1,0 +1,16 @@
+@media(min-width: 1000px)
+{
+	.img-fluid
+	{
+	min-width:800px;
+	max-width:100%;
+	justify-content:center !important;
+	}
+}
+@media(max-width:576px)
+{
+	.subclass
+	{
+		margin-top:5%;
+	}
+}

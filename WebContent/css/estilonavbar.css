@@ -1,0 +1,75 @@
+body
+{
+	padding-top:70px;
+}
+.navstyle
+{
+	background-color:white;
+	color:#A9A9A9;
+		margin-bottom:10px;
+}
+#navBrand
+{
+	color:#FF3B3F !important;
+}
+
+
+.navstyle a:hover
+{
+	color:#FF3B3F !important;
+}
+
+
+.linklogout
+{
+	margin-left:100px;
+}
+
+@media (min-width: 996px)
+{
+	.linksdefault
+	{
+		margin-left:520px;
+	}
+	.navbar-text
+	{
+		margin-left:420px;
+	}
+	.linklogout
+	{
+		margin-left:20px;
+	}
+}
+@media (min-width:1440px)
+{
+	
+	.linksdefault
+	{
+		margin-left:800px;
+	}
+	.navbar-text
+	{
+		margin-left:700px;
+	}
+	.linklogout
+	{
+		margin-left:20px;
+	}
+}
+@media(min-width:1800px)
+{
+	
+	.linksdefault
+	{
+		margin-left:1100px;
+	}
+	.navbar-text
+	{
+		margin-left:1000px;
+	}
+	.linklogout
+	{
+		margin-left:20px;
+	}
+}
+

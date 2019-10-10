@@ -1,0 +1,34 @@
+body
+{ 
+	background-color: #EFEFEF !important;
+}
+
+.card
+{
+	width:100%;
+	height:350px
+	
+}
+.jumbdestaque
+{
+    linear-gradient(black, black);
+  background-size:  cover;
+  background-blend-mode: multiply;
+	background-repeat: no-repeat;     
+background-size:100% auto;
+	  background-attachment: fixed;
+}
+.mask{
+	background-color:#2E2E2E!important;
+}
+@media(max-width:1000px)
+{
+	.jumbdestaque
+	{
+		background-position:center;
+		background-size:auto 100%;
+	}
+	.mask{
+		background-color:#2E2E2E!important;
+	}
+}
